@@ -5,7 +5,6 @@ import { motion, useInView, AnimatePresence } from "framer-motion"
 import {
   ExternalLink,
   Github,
-  ArrowRight,
   ChevronLeft,
   ChevronRight,
   FileText,
