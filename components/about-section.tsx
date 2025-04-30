@@ -11,7 +11,7 @@ export default function AboutSection() {
   const isInView = useInView(ref, { once: true, amount: 0.2 })
 
   return (
-    <section id="about" className="py-20 bg-gray-900">
+    <section id="about" className="py-20 bg-gradient-to-t from-gray-900 to-black">
       <div className="container mx-auto px-4 md:px-6">
         <motion.div
           ref={ref}
@@ -24,7 +24,7 @@ export default function AboutSection() {
             About <span className="text-accent">Me</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Junior Data Scientist passionate about uncovering patterns and extracting actionable insights.
+            Data Scientist passionate about uncovering patterns and extracting actionable insights.
           </p>
         </motion.div>
 
@@ -39,7 +39,7 @@ export default function AboutSection() {
 
             <div className="mt-6 flex flex-col items-center space-y-3 w-full">
               <h3 className="text-xl font-bold font-space-grotesk mb-2">Mohamed Abobakr</h3>
-              <p className="text-accent mb-4">Junior Data Scientist</p>
+              <p className="text-accent mb-4">Data Scientist</p>
             </div>
           </motion.div>
 
@@ -106,9 +106,9 @@ export default function AboutSection() {
                       <h4 className="text-lg font-medium">Bachelor of Computer Science</h4>
                     </div>
                     <p className="text-sm text-gray-400 mb-1">Beni-Suef University • 2021 - 2025</p>
-                    <p className="text-sm text-gray-300">
+                    {/* <p className="text-sm text-gray-300">
                       Studying computer science with focus on data science and machine learning.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
 
@@ -122,10 +122,10 @@ export default function AboutSection() {
                       <h4 className="text-lg font-medium">Certified Data Science Professional</h4>
                     </div>
                     <p className="text-sm text-gray-400 mb-1">EpsilonAI • 2023 - 2024</p>
-                    <p className="text-sm text-gray-300">
+                    {/* <p className="text-sm text-gray-300">
                       Professional certification in data science covering machine learning, data analysis, and
                       visualization.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>

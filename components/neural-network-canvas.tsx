@@ -28,7 +28,7 @@ export default function NeuralNetworkCanvas() {
 
     const nodes: THREE.Mesh[] = []
     const connections: THREE.Line[] = []
-    const layers = [6, 8, 8, 4] // Number of nodes in each layer
+    const layers = [6, 8, 8, 4]
     const layerDistance = 10
     const nodeGeometry = new THREE.SphereGeometry(0.3, 16, 16)
 

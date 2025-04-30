@@ -28,7 +28,7 @@ export default function HeroSection() {
             <h1 className="font-space-grotesk text-4xl md:text-6xl lg:text-7xl font-bold mb-6 tracking-tight">
               <span className="text-white">Mohamed Abobakr</span>
               <br />
-              <span className="text-accent">Junior Data Scientist</span>
+              <span className="text-accent">Data Scientist</span>
             </h1>
           </motion.div>
 

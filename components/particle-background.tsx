@@ -47,7 +47,7 @@ export default function ParticleBackground() {
             distance: 150,
             enable: true,
             opacity: 0.2,
-            width: 1,
+            width: 2,
           },
           move: {
             direction: "none",
@@ -62,7 +62,7 @@ export default function ParticleBackground() {
           number: {
             density: {
               enable: true,
-              area: 800,
+              area: 1000,
             },
             value: 80,
           },

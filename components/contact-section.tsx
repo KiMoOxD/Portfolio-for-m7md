@@ -39,9 +39,11 @@ export default function ContactSection() {
       await new Promise((resolve) => setTimeout(resolve, 500))
 
       setTerminalOutput((prev) => [...prev, "> Input validation successful.", "> Sending message via EmailJS..."])
+      console.log(formRef.current) 
 
       if (formRef.current) {
-        await emailjs.sendForm("service_hfnfrtm", "template_bfhencr", formRef.current, "pYsKCeeLOmSQ8vSHE")
+        
+        await emailjs.sendForm("service_mjllksw", "template_vup9fd8", formRef.current, "luqDfnJghmQPnoLs2")
       }
 
       setTerminalOutput((prev) => [

@@ -31,7 +31,7 @@ const projects = [
     image: "/placeholder.svg?height=400&width=600",
     icon: FileText,
     tags: ["Machine Learning", "EDA", "Dashboard", "Data Analysis"],
-    github: "#",
+    github: "https://github.com/M7mdAboBakr/Corona-EDA-Model",
     demo: "#",
   },
   {
@@ -41,7 +41,7 @@ const projects = [
     image: "/placeholder.svg?height=400&width=600",
     icon: BarChart4,
     tags: ["EDA", "Dashboard", "Data Analysis", "Visualization"],
-    github: "#",
+    github: "https://github.com/M7mdAboBakr/HotelBookings-EDA-Dashboard",
     demo: "#",
   },
   {
@@ -51,7 +51,7 @@ const projects = [
     image: "/placeholder.svg?height=400&width=600",
     icon: ShoppingCart,
     tags: ["EDA", "Dashboard", "Data Analysis", "Visualization"],
-    github: "#",
+    github: "https://github.com/M7mdAboBakr/Ecommerce-EDA-Dashboard",
     demo: "#",
   },
   {
@@ -61,7 +61,7 @@ const projects = [
     image: "/placeholder.svg?height=400&width=600",
     icon: BookOpen,
     tags: ["Web Scraping", "BeautifulSoup", "Data Collection"],
-    github: "#",
+    github: "https://github.com/M7mdAboBakr/Web-Scraping-Python/tree/main/diwan.com",
     demo: "#",
   },
   {
@@ -71,7 +71,7 @@ const projects = [
     image: "/placeholder.svg?height=400&width=600",
     icon: BookOpen,
     tags: ["Web Scraping", "BeautifulSoup", "Data Collection"],
-    github: "#",
+    github: "https://github.com/M7mdAboBakr/Web-Scraping-Python/tree/main/books.toscrape.com",
     demo: "#",
   },
   {
@@ -81,7 +81,7 @@ const projects = [
     image: "/placeholder.svg?height=400&width=600",
     icon: Briefcase,
     tags: ["Web Scraping", "BeautifulSoup", "Data Collection", "Job Data"],
-    github: "#",
+    github: "https://github.com/M7mdAboBakr/Web-Scraping-Python/tree/main/wuzzuf.com",
     demo: "#",
   },
   {
@@ -91,7 +91,7 @@ const projects = [
     image: "/placeholder.svg?height=400&width=600",
     icon: FileText,
     tags: ["Web Scraping", "BeautifulSoup", "Data Collection", "Sports Data"],
-    github: "#",
+    github: "https://github.com/M7mdAboBakr/Web-Scraping-Python/tree/main/yallakora.com",
     demo: "#",
   },
   {
@@ -101,7 +101,7 @@ const projects = [
     image: "/placeholder.svg?height=400&width=600",
     icon: Gamepad2,
     tags: ["Python", "Game Development", "CLI"],
-    github: "#",
+    github: "https://github.com/M7mdAboBakr/Hungman-Game",
     demo: "#",
   },
   {
@@ -111,7 +111,7 @@ const projects = [
     image: "/placeholder.svg?height=400&width=600",
     icon: KeyRound,
     tags: ["Python", "Security", "Utility"],
-    github: "#",
+    github: "https://github.com/M7mdAboBakr/Strong-Password-Generator",
     demo: "#",
   },
   {
@@ -121,7 +121,7 @@ const projects = [
     image: "/placeholder.svg?height=400&width=600",
     icon: Trash2,
     tags: ["Python", "File Management", "Utility"],
-    github: "#",
+    github: "https://github.com/M7mdAboBakr/Thanos",
     demo: "#",
   },
   {
@@ -131,7 +131,7 @@ const projects = [
     image: "/placeholder.svg?height=400&width=600",
     icon: Library,
     tags: ["Python", "OOP", "Management System"],
-    github: "#",
+    github: "https://github.com/M7mdAboBakr/Library-System",
     demo: "#",
   },
   {
@@ -141,7 +141,7 @@ const projects = [
     image: "/placeholder.svg?height=400&width=600",
     icon: Scissors,
     tags: ["Python", "Game Development", "CLI"],
-    github: "#",
+    github: "https://github.com/M7mdAboBakr/Rock-Paper-Scissors-Game",
     demo: "#",
   },
 ]
@@ -180,7 +180,7 @@ export default function ProjectsSection() {
           className="mb-12 text-center"
         >
           <h2 className="text-3xl md:text-4xl font-bold font-space-grotesk mb-4">
-            <span className="text-accent">Data Science</span> Projects
+            Projects
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
             Exploring data science through innovative projects, from analysis and visualization to machine learning and
@@ -218,27 +218,21 @@ export default function ProjectsSection() {
                       ))}
                     </div>
 
-                    <div className="flex items-center gap-4 mt-auto">
-                      <a
-                        href={project.github}
-                        className="text-gray-400 hover:text-accent transition-colors"
-                        aria-label="View GitHub repository"
-                      >
-                        <Github size={20} />
-                      </a>
-                      <a
-                        href={project.demo}
-                        className="text-gray-400 hover:text-accent transition-colors"
-                        aria-label="View live demo"
-                      >
-                        <ExternalLink size={20} />
-                      </a>
-                      <a
-                        href={`#project-${project.id}`}
-                        className="ml-auto text-accent flex items-center gap-1 text-sm hover:underline"
-                      >
-                        View Details <ArrowRight size={16} />
-                      </a>
+                    <div className="flex items-center justify-end gap-4 mt-auto">
+                        <a
+                          href={project.github}
+                          className="text-gray-400 hover:text-accent transition-colors"
+                          aria-label="View GitHub repository"
+                        >
+                          <Github size={20} />
+                        </a>
+                        <a
+                          href={project.demo}
+                          className="text-gray-400 hover:text-accent transition-colors mb-1"
+                          aria-label="View live demo"
+                        >
+                          <ExternalLink size={20} />
+                        </a>
                     </div>
                   </div>
                 </Card>
